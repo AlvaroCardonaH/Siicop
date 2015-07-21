@@ -69,6 +69,11 @@ $this->endWidget('zii.widgets.jui.CJuiDialog');?>
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
+                        array(
+                        'header'=>'Item #',
+                        'htmlOptions'=>array('style'=>'width: 30px; text-align: center;'),
+                        'value'=>'$this->grid->dataProvider->pagination->currentPage * $this->grid->dataProvider->pagination->pageSize + ($row+1)',
+                ),
 		
                 	array ('header'=>'Hora',
                        'name'=>'BuscarHora',

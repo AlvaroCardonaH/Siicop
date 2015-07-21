@@ -59,7 +59,11 @@ $this->endWidget();
         'type'=>'striped bordered condensed',
         'template'=>'{summary}{pager}{items}{pager}',
 	'columns'=>array(
-		//'IdSede',
+		array(
+                        'header'=>'Item #',
+                        'htmlOptions'=>array('style'=>'width: 30px; text-align: center;'),
+                        'value'=>'$this->grid->dataProvider->pagination->currentPage * $this->grid->dataProvider->pagination->pageSize + ($row+1)',
+                ),
 		'NombreSede',
 		//'IdUsuarioGraba',
 		//'FechaGraba',
