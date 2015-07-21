@@ -76,16 +76,11 @@ $this->endWidget('zii.widgets.jui.CJuiDialog');?>
                        'value'=>'$data->HoraInicio." ".$data->HoraFinal',                      
                       ),
 			
-			/*array(
-			'name'=>'FactorDeAtencion',
-			'type'=>'raw',
-			'htmlOptions'=>array('style'=>'width: 40px; text-align: center;'),
-			'value'=>'CHtml::link($data->FactorDeAtencion, \'#\', array(\'onclick\'=>\'$("#mydialog").dialog("open"); return false;\'))',
-			),*/
+			
                         array(
                             'name'=>'FactorDeAtencion',
                             'type'=>'raw',
-                            'value'=>'CHtml::textField("FactorAtencion[$data->IdResumenClasificacionDia][]",$data->FactorDeAtencion,array("style"=>"width:30px; text-align: center;"))',
+                            'value'=>'CHtml::textField("ResumenClasificacionDias[$data->IdResumenClasificacionDia][]",$data->FactorDeAtencion,array("style"=>"width:30px; text-align: center;"))',
                             'htmlOptions'=>array("width"=>"30px"),
                         ),
                      
