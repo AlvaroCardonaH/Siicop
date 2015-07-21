@@ -66,7 +66,8 @@ $this->endWidget();
                 ),*/
                 array(
                         'header'=>'No.',
-                        'value'=>'$this->grid->dataProvider->pagination->currentPage * $this->grid->dataProvider->pagination->pageSize + ($row+1)',
+                        'name'=>'FechaInicio',
+                        //'value'=>'$this->grid->dataProvider->pagination->currentPage * $this->grid->dataProvider->pagination->pageSize + ($row+1)',
                 ),
 		array('header'=>'Tipo Dia',
                        'name'=>'BuscarDia',
