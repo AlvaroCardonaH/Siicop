@@ -124,7 +124,7 @@ class Programacionsugerida extends CActiveRecord
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 			'sort' => array(
-                            'defaultOrder' => 't.FechaInicio desc, idClasificacionDia.NombreClasificacionDia desc',
+                            'defaultOrder' => 't.FechaInicio desc, idClasificacionDia.NombreClasificacionDia desc, t.FechaGraba asc',
                             /*'attributes' => array(
                                 'FechaInicio' => array(
                                 'asc' => 'FechaInicio',
