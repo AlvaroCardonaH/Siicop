@@ -31,12 +31,12 @@
 	<?php echo $form->dropDownListRow(
                     $model,
                     'IdFlota',
-                    CHtml::listData(Flotas::model()->findAll(), 'IdFlota', 'NombreFlota'),
+                    CHtml::listData(Flotas::model()->findAll(array('order'=>'NombreFlota')), 'IdFlota', 'NombreFlota'),
                     array('empty'=>'', 'class'=>'span5')
                     
               );
         
-        ?>
+        ?>  
 
 	
 

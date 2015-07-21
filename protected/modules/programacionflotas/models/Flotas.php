@@ -106,6 +106,8 @@ class Flotas extends CActiveRecord
 			'CodigoEstadoRegistro' => 'Codigo Estado Registro',
 		);
 	}
+        
+        
 
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.

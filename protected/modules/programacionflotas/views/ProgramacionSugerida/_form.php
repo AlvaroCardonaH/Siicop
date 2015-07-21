@@ -47,7 +47,7 @@
                     array('empty'=>'', 'class'=>'span5')
                     
               );
-        
+   
         ?>      
 
 	<?php echo $form->datepickerRow($model,'FechaInicio',
