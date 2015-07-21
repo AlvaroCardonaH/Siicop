@@ -1,16 +1,16 @@
 <?php
-$this->setPageTitle('Actualizar Dias Cliente Fiel por Flota');
+$this->setPageTitle('Actualizar Programacion Sugerida');
 $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
     'links' => array(
-        'Dias Cliente Fiel por Flota'=>array('index'),
-        'Actualizar Dia Cliente Fiel por Flota'
+        'Programacion Sugerida'=>array('index'),
+        'Actualizar Programacion Sugerida'
         
     ),
 ));
 
 ?>
 
-<h1>Update TProgramacionsugerida <?php echo $model->IdProgramacionSugerida; ?></h1>
+<h1>Actualizar Programacion Sugerida: <?php echo $model->IdProgramacionSugerida; ?></h1>
 <hr/>
 
 <?php 
@@ -22,9 +22,9 @@ $this->beginWidget('zii.widgets.CPortlet', array(
 $this->widget('bootstrap.widgets.TbMenu', array(
 	'type'=>'pills',
 	'items'=>array(
-		array('label'=>'Create', 'icon'=>'icon-plus', 'url'=>Yii::app()->controller->createUrl('create'), 'linkOptions'=>array()),
-                array('label'=>'List', 'icon'=>'icon-th-list', 'url'=>Yii::app()->controller->createUrl('index'), 'linkOptions'=>array()),
-                array('label'=>'Update', 'icon'=>'icon-edit', 'url'=>Yii::app()->controller->createUrl('update',array('id'=>$model->IdDiaClienteFiel)),'active'=>true, 'linkOptions'=>array()),
+		array('label'=>'Crear', 'icon'=>'icon-plus', 'url'=>Yii::app()->controller->createUrl('create'), 'linkOptions'=>array()),
+                array('label'=>'Listar', 'icon'=>'icon-th-list', 'url'=>Yii::app()->controller->createUrl('index'), 'linkOptions'=>array()),
+                array('label'=>'Actualizar', 'icon'=>'icon-edit', 'url'=>Yii::app()->controller->createUrl('update',array('id'=>$model->IdProgramacionSugerida)),'active'=>true, 'linkOptions'=>array()),
 	),
 ));
 $this->endWidget();

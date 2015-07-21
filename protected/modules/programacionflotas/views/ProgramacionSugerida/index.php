@@ -115,7 +115,7 @@ $this->endWidget();
                     'urlExpression'=>'Yii::app()->createUrl("programacionflotas/Programacionsugeridadetalle/admin",array("id"=>$data->IdProgramacionSugerida,"fechainicio"=>$data->FechaInicio,"fechafinal"=>$data->FechaFinal,"idreporte"=>$data->IdReportePedidosxPdv,"dia"=>$data->IdClasificacionDia))',
                     'header'=>'Detalle'
                  ),
-            /*array(
+            array(
             'class'=>'bootstrap.widgets.TbButtonColumn',
             'header'=>'Acciones',
 			'template' => ' {update} {delete}',
@@ -140,7 +140,7 @@ $this->endWidget();
 				)
 			),
             'htmlOptions'=>array('style'=>'width: 70px'),
-           ),*/
+           ),
             
             ),
 		

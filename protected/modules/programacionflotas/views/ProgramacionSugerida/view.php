@@ -3,13 +3,13 @@ $this->setPageTitle('Ver Programacion Sugeridad');
 $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
     'links' => array(
         'Programacion Sugerida'=>array('index'),
-        'Ver Programacion Sugeridad'
+        'Ver Programacion Sugerida'
         
     ),
 ));
 ?>
 
-<h1>View TProgramacionsugerida #<?php echo $model->IdProgramacionSugerida; ?></h1>
+<h1>Ver Programacion Sugerida: <?php echo $model->IdProgramacionSugerida; ?></h1>
 <hr />
 <?php 
 $this->beginWidget('zii.widgets.CPortlet', array(
@@ -20,11 +20,11 @@ $this->beginWidget('zii.widgets.CPortlet', array(
 $this->widget('bootstrap.widgets.TbMenu', array(
 	'type'=>'pills',
 	'items'=>array(
-		array('label'=>'Create', 'icon'=>'icon-plus', 'url'=>Yii::app()->controller->createUrl('create'), 'linkOptions'=>array()),
-                array('label'=>'List', 'icon'=>'icon-th-list', 'url'=>Yii::app()->controller->createUrl('index'), 'linkOptions'=>array()),
-                array('label'=>'Update', 'icon'=>'icon-edit', 'url'=>Yii::app()->controller->createUrl('update',array('id'=>$model->IdDiaClienteFiel)), 'linkOptions'=>array()),
+		array('label'=>'Crear', 'icon'=>'icon-plus', 'url'=>Yii::app()->controller->createUrl('create'), 'linkOptions'=>array()),
+                array('label'=>'Listar', 'icon'=>'icon-th-list', 'url'=>Yii::app()->controller->createUrl('index'), 'linkOptions'=>array()),
+                array('label'=>'Actualizar', 'icon'=>'icon-edit', 'url'=>Yii::app()->controller->createUrl('update',array('id'=>$model->IdProgramacionSugerida)), 'linkOptions'=>array()),
 		//array('label'=>'Search', 'icon'=>'icon-search', 'url'=>'#', 'linkOptions'=>array('class'=>'search-button')),
-		array('label'=>'Print', 'icon'=>'icon-print', 'url'=>'javascript:void(0);return false', 'linkOptions'=>array('onclick'=>'printDiv();return false;')),
+		//array('label'=>'Print', 'icon'=>'icon-print', 'url'=>'javascript:void(0);return false', 'linkOptions'=>array('onclick'=>'printDiv();return false;')),
 
 )));
 $this->endWidget();
