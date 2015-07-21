@@ -1,0 +1,178 @@
+[
+    {
+        "name": "twbs/bootstrap",
+        "version": "v3.3.5",
+        "version_normalized": "3.3.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "16b48259a62f576e52c903c476bd42b90ab22482"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/16b48259a62f576e52c903c476bd42b90ab22482",
+            "reference": "16b48259a62f576e52c903c476bd42b90ab22482",
+            "shasum": ""
+        },
+        "replace": {
+            "twitter/bootstrap": "self.version"
+        },
+        "time": "2015-06-16 16:13:22",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            },
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "http://getbootstrap.com",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "front-end",
+            "less",
+            "mobile-first",
+            "responsive",
+            "web"
+        ]
+    },
+    {
+        "name": "crisu83/yiistrap",
+        "version": "2.0.3",
+        "version_normalized": "2.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crisu83/yiistrap.git",
+            "reference": "98ba4b081070c6285be26ef676106608edfe40ea"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/crisu83/yiistrap/zipball/98ba4b081070c6285be26ef676106608edfe40ea",
+            "reference": "98ba4b081070c6285be26ef676106608edfe40ea",
+            "shasum": ""
+        },
+        "require": {
+            "twbs/bootstrap": ">=3.3.0"
+        },
+        "require-dev": {
+            "apigen/apigen": "~4.0",
+            "codeception/codeception": "@stable",
+            "crisu83/yii-composer": ">=1.0.0",
+            "yiisoft/yii": ">=1.1.13"
+        },
+        "time": "2015-04-17 07:37:12",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-develop": "2.0.x-dev"
+            },
+            "yii-install-writable": [
+                "tests/_log"
+            ]
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "behaviors/",
+                "components/",
+                "form/",
+                "helpers/",
+                "widgets/",
+                "gii/bootstrap/BootstrapCode.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Christoffer Niska",
+                "email": "christoffer.niska@gmail.com",
+                "homepage": "http://www.cniska.net/"
+            },
+            {
+                "name": "Antonio Ramirez",
+                "email": "ramirez.cobos@gmail.com",
+                "homepage": "http://www.ramirezcobos.com/"
+            }
+        ],
+        "description": "Twitter Bootstrap for the Yii PHP framework.",
+        "keywords": [
+            "bootstrap",
+            "yii"
+        ]
+    },
+    {
+        "name": "cornernote/yii-audit-module",
+        "version": "1.1.10",
+        "version_normalized": "1.1.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cornernote/yii-audit-module.git",
+            "reference": "0c23e258051d97c038c576329e0b57c3d7fd59b8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cornernote/yii-audit-module/zipball/0c23e258051d97c038c576329e0b57c3d7fd59b8",
+            "reference": "0c23e258051d97c038c576329e0b57c3d7fd59b8",
+            "shasum": ""
+        },
+        "require": {
+            "crisu83/yiistrap": ">=1.0.0"
+        },
+        "require-dev": {
+            "yiisoft/yii": "1.1.15"
+        },
+        "time": "2015-02-24 08:32:04",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "audit/components/",
+                "audit/models/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Brett O'Donnell",
+                "email": "cornernote@gmail.com",
+                "homepage": "http://mrphp.com.au/"
+            },
+            {
+                "name": "Zain ul abidin",
+                "email": "zainengineer@gmail.com"
+            }
+        ],
+        "description": "Track and store usage information including page requests, database field changes and system errors.",
+        "keywords": [
+            "Audit",
+            "error handler",
+            "logging",
+            "model logging",
+            "mrphp",
+            "request logging",
+            "yii"
+        ]
+    }
+]
