@@ -7,7 +7,6 @@ $this->pageTitle=Yii::app()->name . ' - Login';
 $this->breadcrumbs=array(
 	'Login',
 );
-
 ?>
 
 <h1>Iniciar Sesión</h1>
