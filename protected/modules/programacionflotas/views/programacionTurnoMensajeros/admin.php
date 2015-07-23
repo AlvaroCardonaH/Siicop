@@ -2,7 +2,7 @@
 $this->setPageTitle('Programacion de Turnos Mensajeros');
 $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
     'links' => array(
-        'Programacion de Turnos'=>array('ProgramacionTurnos/index'),
+        'Programacion Sugerida'=>array('ProgramacionSugerida/index'),
         'Programacion de Turnos Mensajeros'
         
     ),
@@ -30,7 +30,6 @@ $('.search-form form').submit(function(){
 <h1>Ver Programacion Turnos Mensajeros</h1>
 
 <p><b>Flota: </b><?php echo Yii::app()->getRequest()->getParam('Flota'); ?></p>
-<p><b>Programacion Sugerida: </b><?php echo Yii::app()->getRequest()->getParam('IdProgramacionSugerida'); ?></p>
 <p><b>Fecha Inicial: </b><?php echo Yii::app()->getRequest()->getParam('FechaInicial'); ?></p>
 <p><b>Fecha Final: </b><?php echo Yii::app()->getRequest()->getParam('FechaFinal'); ?></p>
 

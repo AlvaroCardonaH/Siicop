@@ -83,7 +83,7 @@ $this->endWidget();
                     'class'=>'CLinkColumn',
                     'label'=>'Ver Programacion',
                     'htmlOptions'=>array('style'=>'width: 80px; text-align: center;'),
-                    'urlExpression'=>'Yii::app()->createUrl("programacionflotas/ProgramacionTurnoMensajeros/admin",array("FechaInicial"=>$data->FechaInicial,"FechaFinal"=>$data->FechaFinal,"IdProgramacionSugerida"=>$data->IdProgramacionSugerida, "Flota"=>$data->idFlota->NombreFlota))',
+                    'urlExpression'=>'Yii::app()->createUrl("programacionflotas/ProgramacionTurnoMensajeros/admin",array("FechaInicial"=>$data->FechaInicial,"FechaFinal"=>$data->FechaFinal,"IdFlota"=>$data->IdFlota,"Flota"=>$data->idFlota->NombreFlota))',
                     'header'=>'Detalle'
                  ),
        /*array(

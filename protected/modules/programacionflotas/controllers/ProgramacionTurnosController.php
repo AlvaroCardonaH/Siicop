@@ -127,6 +127,7 @@ class ProgramacionTurnosController extends Controller
 	 */
 	public function actionIndex($id)
 	{
+            
                 $SQL = "CALL AsignarPersonasProgramacion($id);";
                 Yii::app()->db->createCommand($SQL)->execute();
                 
@@ -136,6 +137,9 @@ class ProgramacionTurnosController extends Controller
 
                 $model=new ProgramacionTurnos('search');
                 $model->unsetAttributes();  // clear any default values
+                
+                
+                
 
                 if(isset($_GET['ProgramacionTurnos']))
 		{
