@@ -66,10 +66,10 @@ $this->endWidget();
                         'htmlOptions'=>array('style'=>'width: 30px; text-align: center;'),
                         'value'=>'$this->grid->dataProvider->pagination->currentPage * $this->grid->dataProvider->pagination->pageSize + ($row+1)',
                 ), 
-                /* array(
+                array(
                     'name'=>'IdProgramacionSugerida',
                     'htmlOptions'=>array('style'=>'width: 80px; text-align: justify;'),
-                ),*/
+                ),
 		array('header'=>'Tipo Dia',
                        'name'=>'BuscarDia',
                        'htmlOptions'=>array('style'=>'width: 80px; text-align: justify;'),
