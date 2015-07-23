@@ -326,9 +326,11 @@ $this->widget('bootstrap.widgets.TbGridView',array(
 	
 	),
 )); ?>
-<?= CHtml::submitButton('Modificar',['class' => 'btn btn-primary']) ?>
-
-<?php $this->endWidget(); ?>
+<table>
+    <td><?= CHtml::submitButton('Modificar',['class' => 'btn btn-secondary']) ?></td>
+    <td><?php echo CHtml::link('Generar Turno', array('controller/action', 'id'=>$model->IdProgramacionSugerida), ['class' => 'btn btn-primary']); ?></td>
+</table>
+    <?php $this->endWidget(); ?>
 
 <?php
         $diasModel = new VResumenClasificacionDias('search');

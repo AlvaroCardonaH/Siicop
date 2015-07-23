@@ -114,7 +114,7 @@ $this->endWidget();
                 
 			array(
                     'class'=>'CLinkColumn',
-                    'label'=>'Ver Detalle',
+                    'label'=>'Ver Programacion',
                     'htmlOptions'=>array('style'=>'width: 80px; text-align: center;'),
                     'urlExpression'=>'Yii::app()->createUrl("programacionflotas/Programacionsugeridadetalle/admin",array("id"=>$data->IdProgramacionSugerida,"fechainicio"=>$data->FechaInicio,"fechafinal"=>$data->FechaFinal,"idreporte"=>$data->IdReportePedidosxPdv,"dia"=>$data->IdClasificacionDia))',
                     'header'=>'Detalle'

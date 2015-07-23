@@ -10050,3 +10050,77 @@ Stack trace:
 REQUEST_URI=/Siicop/programacionflotas/programacionsugerida/delete/id/31?ajax=tprogramacionsugerida-grid
 in C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaController.php (128)
 in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/22 19:20:15 [error] [exception.CException] exception 'CException' with message 'La propiedad "Programacionsugeridadetalle"."id" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\views\ProgramacionSugeridaDetalle\admin.php(330): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#6 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaDetalleController.php(308): CController->render('admin', Array)
+#7 [internal function]: ProgramacionsugeridadetalleController->actionAdmin('1')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProgramacionsugeridadetalleController), Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProgramacionsugeridadetalleController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/Siicop/programacionflotas/Programacionsugeridadetalle/admin/id/1/fechainicio/2015-07-01/fechafinal/2015-07-31/idreporte/13/dia/1
+HTTP_REFERER=http://localhost:85/Siicop/programacionflotas/Programacionsugerida/index
+---
+2015/07/22 19:20:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "programacionflotas/controller/action/id/1"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/programacionflotas/controller/action/id/1
+HTTP_REFERER=http://localhost:85/Siicop/programacionflotas/Programacionsugeridadetalle/admin/id/1/fechainicio/2015-07-01/fechafinal/2015-07-31/idreporte/13/dia/1
+---
+2015/07/22 19:27:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/07/23 12:07:37 [error] [exception.CException] exception 'CException' with message 'La propiedad "ProgramacionTurnoMensajeros"."id" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\views\programacionTurnoMensajeros\view.php(21): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionTurnoMensajerosController.php(55): CController->render('view', Array)
+#7 [internal function]: ProgramacionTurnoMensajerosController->actionView('33')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProgramacionTurnoMensajerosController), Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProgramacionTurnoMensajerosController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/Siicop/programacionflotas/programacionTurnoMensajeros/view/id/33
+HTTP_REFERER=http://localhost:85/Siicop/programacionflotas/ProgramacionTurnoMensajeros
+---
