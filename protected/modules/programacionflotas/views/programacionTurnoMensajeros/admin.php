@@ -1,8 +1,12 @@
 <?php
-$this->breadcrumbs=array(
-	'Programacion Turno Mensajeroses'=>array('index'),
-	'Manage',
-);
+$this->setPageTitle('Programacion de Turnos Mensajeros');
+$this->widget('bootstrap.widgets.TbBreadcrumbs', array(
+    'links' => array(
+        'Programacion de Turnos'=>array('ProgramacionTurnos/index'),
+        'Programacion de Turnos Mensajeros'
+        
+    ),
+));
 
 $this->menu=array(
 	array('label'=>'List ProgramacionTurnoMensajeros','url'=>array('index')),
@@ -23,38 +27,76 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Programacion Turno Mensajeroses</h1>
+<h1>Ver Programacion Turnos Mensajeros</h1>
 
-<p>
-You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
-</p>
+<p><b>Flota: </b><?php echo Yii::app()->getRequest()->getParam('Flota'); ?></p>
+<p><b>Programacion Sugerida: </b><?php echo Yii::app()->getRequest()->getParam('IdProgramacionSugerida'); ?></p>
+<p><b>Fecha Inicial: </b><?php echo Yii::app()->getRequest()->getParam('FechaInicial'); ?></p>
+<p><b>Fecha Final: </b><?php echo Yii::app()->getRequest()->getParam('FechaFinal'); ?></p>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button btn')); ?>
-<div class="search-form" style="display:none">
-<?php $this->renderPartial('_search',array(
-	'model'=>$model,
-)); ?>
-</div><!-- search-form -->
+
 
 <?php $this->widget('bootstrap.widgets.TbGridView',array(
 	'id'=>'programacion-turno-mensajeros-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'IdProgramacionTurnoMensajero',
+		array(
+                        'header'=>'Item #',
+                        'htmlOptions'=>array('style'=>'width: 30px; text-align: center;'),
+                        'value'=>'$this->grid->dataProvider->pagination->currentPage * $this->grid->dataProvider->pagination->pageSize + ($row+1)',
+                ),
 		'IdProgramacionTurnoFecha',
-		'NumeroTurno',
-		'HoraInicio',
-		'HoraFinal',
-		'Documento',
-		/*
+		array(
+                    'name'=>'NumeroTurno',
+                    'htmlOptions'=>array('style'=>'width: 60px; text-align: justify;'),
+                ),
+                array(
+                    'header'=>'Tipo Dia',
+                    'name'=>'BuscarDia',
+                    'value'=>'$data->idProgramacionTurnoFecha->idProgramacionTurno->idClasificacionDia->NombreClasificacionDia',
+                    'htmlOptions'=>array('style'=>'width: 120px; text-align: justify;'),
+                ),
+                /*array('header'=>'Tipo Dia',
+                       'name'=>'BuscarDia',
+                       'htmlOptions'=>array('style'=>'width: 80px; text-align: justify;'),
+                       'value'=>'$data->idClasificacionDia->NombreClasificacionDia',                      
+                      ),*/
+               
+                array(
+                    'header'=>'Fecha Inicio',
+                    'name'=>'BuscarFechaInicial',
+                    'value'=>'$data->idProgramacionTurnoFecha->FechaInicio',
+                    'htmlOptions'=>array('style'=>'width: 120px; text-align: justify;'),
+                ),
+                array(
+                    'header'=>'Fecha Final',
+                    'name'=>'BuscarFechaFinal',
+                    'value'=>'$data->idProgramacionTurnoFecha->FechaFinal',
+                    'htmlOptions'=>array('style'=>'width: 120px; text-align: justify;'),
+                ),
+                
+                array(
+                    'name'=>'HoraInicio',
+                    'htmlOptions'=>array('style'=>'width: 60px; text-align: center;'),
+                ),
+                array(
+                    'name'=>'HoraFinal',
+                    'htmlOptions'=>array('style'=>'width: 60px; text-align: center;'),
+                ),
+		array(
+                    'name'=>'Documento',
+                    'htmlOptions'=>array('style'=>'width: 60px; text-align: left;'),
+                ),
+		
+		
+		
 		'NombreCompleto',
-		'DiferenciaHoras',
+		/*'DiferenciaHoras',
 		'HoraFinalAnterior',
 		*/
-		array(
+		/*array(
 			'class'=>'bootstrap.widgets.TbButtonColumn',
-		),
+		),*/
 	),
 )); ?>

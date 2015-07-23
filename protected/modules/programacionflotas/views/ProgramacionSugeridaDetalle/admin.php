@@ -328,7 +328,7 @@ $this->widget('bootstrap.widgets.TbGridView',array(
 )); ?>
 <table>
     <td><?= CHtml::submitButton('Modificar',['class' => 'btn btn-secondary']) ?></td>
-    <td><?php echo CHtml::link('Generar Turno', array('controller/action', 'id'=>$model->IdProgramacionSugerida), ['class' => 'btn btn-primary']); ?></td>
+    <td><?php echo CHtml::link('Generar Turno', array('ProgramacionTurnos/index', 'id'=>$model->IdProgramacionSugerida), ['class' => 'btn btn-primary']); ?></td>
 </table>
     <?php $this->endWidget(); ?>
 

@@ -6,7 +6,7 @@ class ProgramacionTurnosController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column1';
+	public $layout='/layouts/menu';
 
 	/**
 	 * @return array action filters
@@ -125,8 +125,11 @@ class ProgramacionTurnosController extends Controller
 	/**
 	 * Lists all models.
 	 */
-	public function actionIndex()
+	public function actionIndex($id)
 	{
+                $SQL = "CALL AsignarPersonasProgramacion($id);";
+                Yii::app()->db->createCommand($SQL)->execute();
+                
             $session=new CHttpSession;
             $session->open();		
             $criteria = new CDbCriteria();            
@@ -137,6 +140,7 @@ class ProgramacionTurnosController extends Controller
                 if(isset($_GET['ProgramacionTurnos']))
 		{
                         $model->attributes=$_GET['ProgramacionTurnos'];
+                        $model->IdProgramacionSugerida=$id;
 			
 			
                    	

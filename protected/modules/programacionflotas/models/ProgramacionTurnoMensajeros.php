@@ -16,6 +16,9 @@
  */
 class ProgramacionTurnoMensajeros extends CActiveRecord
 {
+        public $BuscarDia;
+        public $BuscarFechaInicial;
+        public $BuscarFechaFinal;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -38,7 +41,7 @@ class ProgramacionTurnoMensajeros extends CActiveRecord
 			array('NombreCompleto', 'length', 'max'=>80),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('IdProgramacionTurnoMensajero, IdProgramacionTurnoFecha, NumeroTurno, HoraInicio, HoraFinal, Documento, NombreCompleto, DiferenciaHoras, HoraFinalAnterior', 'safe', 'on'=>'search'),
+			array('IdProgramacionTurnoMensajero, BuscarDia, BuscarFechaInicial, BuscarFechaFinal  IdProgramacionTurnoFecha, NumeroTurno, HoraInicio, HoraFinal, Documento, NombreCompleto, DiferenciaHoras, HoraFinalAnterior', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -50,6 +53,8 @@ class ProgramacionTurnoMensajeros extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'idProgramacionTurnoFecha' => array(self::BELONGS_TO, 'ProgramacionTurnoFechas', 'IdProgramacionTurnoFecha'),
+			
 		);
 	}
 
@@ -88,19 +93,28 @@ class ProgramacionTurnoMensajeros extends CActiveRecord
 		// @todo Please modify the following code to remove attributes that should not be searched.
 
 		$criteria=new CDbCriteria;
+                $criteria->with = array('idProgramacionTurnoFecha.idProgramacionTurno.idClasificacionDia');
+                $criteria->together = true;  
 
-		$criteria->compare('IdProgramacionTurnoMensajero',$this->IdProgramacionTurnoMensajero);
-		$criteria->compare('IdProgramacionTurnoFecha',$this->IdProgramacionTurnoFecha);
-		$criteria->compare('NumeroTurno',$this->NumeroTurno);
-		$criteria->compare('HoraInicio',$this->HoraInicio,true);
-		$criteria->compare('HoraFinal',$this->HoraFinal,true);
-		$criteria->compare('Documento',$this->Documento);
-		$criteria->compare('NombreCompleto',$this->NombreCompleto,true);
-		$criteria->compare('DiferenciaHoras',$this->DiferenciaHoras);
-		$criteria->compare('HoraFinalAnterior',$this->HoraFinalAnterior,true);
+		$criteria->compare('t.IdProgramacionTurnoMensajero',$this->IdProgramacionTurnoMensajero);
+		$criteria->compare('t.IdProgramacionTurnoFecha',$this->IdProgramacionTurnoFecha);
+		$criteria->compare('t.NumeroTurno',$this->NumeroTurno);
+		$criteria->compare('t.HoraInicio',$this->HoraInicio,true);
+		$criteria->compare('t.HoraFinal',$this->HoraFinal,true);
+		$criteria->compare('t.Documento',$this->Documento);
+		$criteria->compare('t.NombreCompleto',$this->NombreCompleto,true);
+		$criteria->compare('t.DiferenciaHoras',$this->DiferenciaHoras);
+		$criteria->compare('t.HoraFinalAnterior',$this->HoraFinalAnterior,true);
+                $criteria->compare('idClasificacionDia.NombreClasificacionDia',$this->BuscarDia,true);
+                $criteria->compare('idProgramacionTurnoFecha.FechaInicio',$this->BuscarFechaInicial,true);
+                $criteria->compare('idProgramacionTurnoFecha.FechaFinal',$this->BuscarFechaFinal,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+                        'pagination'=>array(
+                        'pageSize'=>30,
+                ),
+
 		));
 	}
 

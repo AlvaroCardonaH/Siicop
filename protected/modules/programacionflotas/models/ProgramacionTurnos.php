@@ -50,9 +50,9 @@ class ProgramacionTurnos extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'idClasificacionDia' => array(self::BELONGS_TO, 'MClasificaciondias', 'IdClasificacionDia'),
-			'idFlota' => array(self::BELONGS_TO, 'MFlotas', 'IdFlota'),
-			'idProgramacionSugerida' => array(self::BELONGS_TO, 'TProgramacionsugerida', 'IdProgramacionSugerida'),
+			'idClasificacionDia' => array(self::BELONGS_TO, 'Clasificaciondias', 'IdClasificacionDia'),
+			'idFlota' => array(self::BELONGS_TO, 'Flotas', 'IdFlota'),
+			'idProgramacionSugerida' => array(self::BELONGS_TO, 'Programacionsugerida', 'IdProgramacionSugerida'),
 		);
 	}
 
@@ -88,6 +88,8 @@ class ProgramacionTurnos extends CActiveRecord
 		// @todo Please modify the following code to remove attributes that should not be searched.
 
 		$criteria=new CDbCriteria;
+               // $criteria->with = array('idClasificacionDia');
+
 
 		$criteria->compare('IdProgramacionTurno',$this->IdProgramacionTurno);
 		$criteria->compare('IdProgramacionSugerida',$this->IdProgramacionSugerida);
@@ -95,6 +97,8 @@ class ProgramacionTurnos extends CActiveRecord
 		$criteria->compare('IdClasificacionDia',$this->IdClasificacionDia);
 		$criteria->compare('FechaInicial',$this->FechaInicial,true);
 		$criteria->compare('FechaFinal',$this->FechaFinal,true);
+                $criteria->group = 'IdFlota';
+               //$criteria->order = 'idClasificacionDia.NombreClasificacionDia DESC';
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
