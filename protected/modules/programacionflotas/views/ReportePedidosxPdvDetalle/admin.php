@@ -57,28 +57,28 @@ $this->endWidget();
 	'columns'=>array(
 		//'IdReportePedidosxPdvDetalle',
 		//'IdReportePedidosxPdv',
-		'NumeroDeRegistro',
-		//'CodigoPdv',
-		'NombrePdv',
-		'Caja',
 		
-		'Factura',
-		'Valor',
-		'NombreMensajero',
-		'CelularMensajero',
-		'NombreCliente',
-		'DireccionCliente',
-		'TelefonoCliente',
-		'EstadoPedido',
-		//'CausalEntrega',
-		'FechaPos',
-		'FechaAceptacion',
-		'TiempoEspera',
-		'FechaEntrega',
-		'TiempoTotalMinutos',
-		//'IdRuta',
-		//'CodigoEstadoRegistro',
-		//'EsDiaFestivo',
+                array(
+                        'header'=>'Item #',
+                        'htmlOptions'=>array('style'=>'width: 30px; text-align: center;'),
+                        'value'=>'$this->grid->dataProvider->pagination->currentPage * $this->grid->dataProvider->pagination->pageSize + ($row+1)',
+                ),
+                array(
+                      'name'=>'CodigoPdv',
+                      'htmlOptions'=>array('style'=>'width: 30px; text-align: justify;'),
+                    ),
+                array(
+                      'name'=>'NombrePdv',
+                      'htmlOptions'=>array('style'=>'width: 120px; text-align: justify;'),
+                    ),    
+                array(
+                      'name'=>'FechaPos',
+                      'htmlOptions'=>array('style'=>'width: 60px; text-align: justify;'),
+                    ),
+                array(
+                      'name'=>'TiempoTotalMinutos',
+                      'htmlOptions'=>array('style'=>'width: 30px; text-align: center;'),
+                    ),    
 		
 		
 	),
