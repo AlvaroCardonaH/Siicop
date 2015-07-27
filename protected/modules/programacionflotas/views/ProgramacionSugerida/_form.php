@@ -26,30 +26,10 @@
                     
               );
         
-        ?>                    
-
-	<?php echo $form->dropDownListRow(
-                    $model,
-                    'IdClasificacionDia',
-                    CHtml::listData(Clasificaciondias::model()->findAll(), 'IdClasificacionDia', 'NombreClasificacionDia'),
-                    array('empty'=>'', 'class'=>'span5')
-                    
-              );
-        
         ?>
                             
         <?php echo $form->textFieldRow($model,'NumeroMensajerosProgramacion',array('class'=>'span5','maxlength'=>3, 'style'=>'text-transform:uppercase', 'onKeyUp'=>'javascript:this.value=this.value.toUpperCase();')); ?>
-                    
-        <?php echo $form->dropDownListRow(
-                    $model,
-                    'IdFlota',
-                    CHtml::listData(Flotas::model()->findAll(array('order'=>'NombreFlota')), 'IdFlota', 'NombreFlota'),
-                    array('empty'=>'', 'class'=>'span5')
-                    
-              );
-   
-        ?>      
-
+              
 	<?php echo $form->datepickerRow($model,'FechaInicio',
                             array('prepend'=>'<i class="icon-calendar"></i>',
                                     'disabled' => true,

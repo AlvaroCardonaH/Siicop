@@ -73,7 +73,10 @@ class ProgramacionsugeridaController extends Controller
                         $id=Yii::app()->user->id;
                         $model->IdUsuarioUltimaModifica = $id;
                         
-                        $SQL = "CALL Crear_ProgramacionSugerida_Inicial($model->IdReportePedidosxPdv, $model->IdClasificacionDia, $model->NumeroMensajerosProgramacion, $model->IdFlota, '$model->FechaInicio', '$model->FechaFinal', $id);";
+                        $SQL = "CALL Crear_ProgramacionSugerida($model->IdReportePedidosxPdv, "
+                                                                . "$model->NumeroMensajerosProgramacion, "
+                                                                . "'$model->FechaInicio', "
+                                                                . "'$model->FechaFinal', $id);";
                         Yii::app()->db->createCommand($SQL)->execute();
                         
 			if($model->validate())

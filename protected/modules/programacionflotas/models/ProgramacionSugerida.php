@@ -48,7 +48,7 @@ class Programacionsugerida extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('IdClasificacionDia, IdReportePedidosxPdv, FechaInicio, FechaFinal, NumeroMensajerosProgramacion, IdFlota', 'required'),
+			array('IdReportePedidosxPdv, FechaInicio, FechaFinal, NumeroMensajerosProgramacion', 'required'),
 			array('FechaFinal', 'compare', 'compareAttribute' => 'FechaInicio', 'operator' => '>', 'message'=>'La Fecha Final debe ser superior a la Fecha de Inicio'),
 			array('IdClasificacionDia, IdReportePedidosxPdv, IdUsuarioGraba, IdUsuarioUltimaModifica,NumeroMensajerosProgramacion, CodigoEstadoRegistro, IdFlota', 'numerical', 'integerOnly'=>true),
 			array('DescripcionProgramacionSugerida', 'length', 'max'=>2000),
@@ -123,6 +123,9 @@ class Programacionsugerida extends CActiveRecord
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+                        'pagination'=>array(
+                        'pageSize'=>30,
+                         ),
 			'sort' => array(
                             'defaultOrder' => 't.FechaInicio desc, idClasificacionDia.NombreClasificacionDia desc, t.FechaGraba asc',
                             /*'attributes' => array(

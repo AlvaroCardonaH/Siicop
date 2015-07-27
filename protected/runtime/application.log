@@ -10680,3 +10680,21 @@ Stack trace:
 REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
 HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
 ---
+2015/07/25 01:23:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/07/25 01:23:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---

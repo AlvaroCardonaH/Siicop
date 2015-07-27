@@ -77,24 +77,24 @@ $this->endWidget();
                       ),
                 array(
                     'name'=>'IdReportePedidosxPdv',
-                    'htmlOptions'=>array('style'=>'width: 80px; text-align: justify;'),
+                    'htmlOptions'=>array('style'=>'width: 60px; text-align: justify;'),
                 ),      
 		               
                 array(
                     
                     'name'=>'IdFlota',
-                    'htmlOptions'=>array('style'=>'width: 80px; text-align: justify;'),
+                    'htmlOptions'=>array('style'=>'width: 60px; text-align: justify;'),
                     'value'=>'$data->idReportexpdv->idFlota->NombreFlota',
                     'filter'=>CHtml::activeTextField($model,'BuscarFlota'),
                     
                 ),       
                 array(
                     'name'=>'FechaInicio',
-                    'htmlOptions'=>array('style'=>'width: 90px; text-align: justify;'),
+                    'htmlOptions'=>array('style'=>'width: 70px; text-align: justify;'),
                 ),  
                 array(
                     'name'=>'FechaFinal',
-                    'htmlOptions'=>array('style'=>'width: 90px; text-align: justify;'),
+                    'htmlOptions'=>array('style'=>'width: 70px; text-align: justify;'),
                 ),  
 		
 				array(
