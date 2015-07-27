@@ -97,7 +97,7 @@ class ProgramacionTurnos extends CActiveRecord
 		$criteria->compare('IdClasificacionDia',$this->IdClasificacionDia);
 		$criteria->compare('FechaInicial',$this->FechaInicial,true);
 		$criteria->compare('FechaFinal',$this->FechaFinal,true);
-                $criteria->group = 'IdFlota';
+                //$criteria->group = 'IdFlota';
                //$criteria->order = 'idClasificacionDia.NombreClasificacionDia DESC';
 
 		return new CActiveDataProvider($this, array(

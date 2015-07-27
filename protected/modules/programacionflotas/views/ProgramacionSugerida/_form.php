@@ -22,7 +22,7 @@
                     $model,
                     'IdReportePedidosxPdv',
                     CHtml::listData(Reportepedidosxpdv::model()->findAll(), 'IdReportePedidosxPdv', 'DescripcionReporte'),
-                    array('empty'=>'', 'class'=>'span5')
+                    $model->isNewRecord ? array('empty'=>'', 'class'=>'span5') : array('empty'=>'', 'class'=>'span5', "disabled" => "disabled")
                     
               );
         
