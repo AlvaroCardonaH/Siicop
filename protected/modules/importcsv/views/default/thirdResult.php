@@ -46,8 +46,8 @@ elseif($error==0) {
         }
     }
     
-    echo "<span class='importCsvNoError'>".Yii::t('importcsvModule.importcsv', 'Se subio correctamente')."</span>.<br/>".Yii::t('importcsvModule.importcsv', 'Errores en Filas').": ".$strings;
-	?><span id="importCsvBread1">&laquo; <?php echo CHtml::link(Yii::t('importcsvModule.importcsv', 'Ver Reporte'), array("//hReportepedidosxpdv/index"));?></span>
+    echo "<span class='importCsvNoError'>".Yii::t('importcsvModule.importcsv', 'Se subio correctamente')."</span>.<br/>".Yii::t('importcsvModule.importcsv', 'Errores en Filas').": ".$strings."<br/>".CHtml::link(Yii::t('importcsvModule.importcsv', 'Ver Reporte'), array("/programacionflotas/Reportepedidosxpdv/index"))."</span>.<br/>";
+	?><span id="importCsvBread1">&laquo;</span>
 	<?php
     ?>
 	

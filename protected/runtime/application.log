@@ -213,3 +213,1007 @@ Stack trace:
 REQUEST_URI=/Siicop/programacionflotas/Reportepedidosxpdvdetalle/admin/id/15/fechainicio/2015-03-01/fechafinal/2015-03-21/flota/FLOTA+1
 HTTP_REFERER=http://localhost:85/Siicop/programacionflotas/Reportepedidosxpdv/index
 ---
+2015/07/27 23:13:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "hReportepedidosxpdv/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('hReportepedidos...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/hReportepedidosxpdv/index
+HTTP_REFERER=http://localhost:85/Siicop/importcsv
+---
+2015/07/27 23:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "prgramacionflotas/Reportepedidosxpdv/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('prgramacionflot...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/prgramacionflotas/Reportepedidosxpdv/index
+HTTP_REFERER=http://localhost:85/Siicop/importcsv
+---
+2015/07/27 23:30:35 [error] [php] Undefined index: perRequest (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:149)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (149)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:30:38 [error] [php] Undefined index: perRequest (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:149)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (149)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:30:39 [error] [php] Undefined index: perRequest (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:149)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (149)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:30:39 [error] [php] Undefined index: perRequest (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:149)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (149)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:30:39 [error] [php] Undefined index: perRequest (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:149)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (149)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:30:40 [error] [php] Undefined index: perRequest (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:149)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (149)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:30:40 [error] [php] Undefined index: perRequest (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:149)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (149)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:32:59 [error] [php] Undefined index: perRequest (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:149)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (149)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:45:48 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php on line 70 and defined (C:\xampp\htdocs\yii\framework\YiiBase.php:573)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): DefaultController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(870): DefaultController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(783): DefaultController->renderPartial()
+#3 C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php(140): DefaultController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php (70)
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (140)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:45:51 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php on line 70 and defined (C:\xampp\htdocs\yii\framework\YiiBase.php:573)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): DefaultController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(870): DefaultController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(783): DefaultController->renderPartial()
+#3 C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php(140): DefaultController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php (70)
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (140)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:45:52 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php on line 70 and defined (C:\xampp\htdocs\yii\framework\YiiBase.php:573)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): DefaultController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(870): DefaultController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(783): DefaultController->renderPartial()
+#3 C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php(140): DefaultController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php (70)
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (140)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:45:52 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php on line 70 and defined (C:\xampp\htdocs\yii\framework\YiiBase.php:573)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): DefaultController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(870): DefaultController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(783): DefaultController->renderPartial()
+#3 C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php(140): DefaultController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php (70)
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (140)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:45:53 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php on line 70 and defined (C:\xampp\htdocs\yii\framework\YiiBase.php:573)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): DefaultController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(870): DefaultController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(783): DefaultController->renderPartial()
+#3 C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php(140): DefaultController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php (70)
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (140)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:45:53 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php on line 70 and defined (C:\xampp\htdocs\yii\framework\YiiBase.php:573)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): DefaultController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(870): DefaultController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(783): DefaultController->renderPartial()
+#3 C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php(140): DefaultController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php (70)
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (140)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:45:53 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php on line 70 and defined (C:\xampp\htdocs\yii\framework\YiiBase.php:573)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): DefaultController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(870): DefaultController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(783): DefaultController->renderPartial()
+#3 C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php(140): DefaultController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php (70)
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (140)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:45:53 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php on line 70 and defined (C:\xampp\htdocs\yii\framework\YiiBase.php:573)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): DefaultController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(870): DefaultController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(783): DefaultController->renderPartial()
+#3 C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php(140): DefaultController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php (70)
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (140)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:45:53 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php on line 70 and defined (C:\xampp\htdocs\yii\framework\YiiBase.php:573)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): DefaultController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(870): DefaultController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(783): DefaultController->renderPartial()
+#3 C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php(140): DefaultController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php (70)
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (140)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:45:54 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php on line 70 and defined (C:\xampp\htdocs\yii\framework\YiiBase.php:573)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): DefaultController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(870): DefaultController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(783): DefaultController->renderPartial()
+#3 C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php(140): DefaultController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php (70)
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (140)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:45:54 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php on line 70 and defined (C:\xampp\htdocs\yii\framework\YiiBase.php:573)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): DefaultController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(870): DefaultController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(783): DefaultController->renderPartial()
+#3 C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php(140): DefaultController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php (70)
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (140)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/27 23:45:54 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php on line 70 and defined (C:\xampp\htdocs\yii\framework\YiiBase.php:573)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): DefaultController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(870): DefaultController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(783): DefaultController->renderPartial()
+#3 C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php(140): DefaultController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\views\default\secondResult.php (70)
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (140)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:52 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:54 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:54 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:55 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:55 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:56 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:56 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:56 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:56 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:56 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:56 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:56 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:56 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:56 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:57 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:12:57 [error] [php] Undefined index: Tablekey (C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/importcsv
+in C:\xampp\htdocs\Siicop\protected\modules\importcsv\controllers\DefaultController.php (150)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 00:29:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "importcsv/Reportepedidosxpdv/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('importcsv/Repor...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/importcsv/Reportepedidosxpdv/index
+HTTP_REFERER=http://localhost:85/Siicop/importcsv
+---
+2015/07/28 12:34:49 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[02000]: No data: 1329 No data - zero rows fetched, selected, or processed. The SQL statement executed was: CALL AsignarPersonasProgramacion(1);.
+in C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionTurnosController.php (132)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 12:34:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[02000]: No data: 1329 No data - zero rows fetched, selected, or processed. The SQL statement executed was: CALL AsignarPersonasProgramacion(1);' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionTurnosController.php(132): CDbCommand->execute()
+#1 [internal function]: ProgramacionTurnosController->actionIndex('1')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProgramacionTurnosController), Array)
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProgramacionTurnosController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('programacionflo...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Siicop/programacionflotas/ProgramacionTurnos/index/id/1
+---
+2015/07/28 13:58:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/07/28 14:02:07 [error] [php] include(Programacionsugerida.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\Siicop\protected\extensions\facebook\lib\facebook\src\facebook.php(37): session_start()
+#2 C:\xampp\htdocs\Siicop\protected\extensions\facebook\components\FacebookConnect.php(48): Facebook->__construct()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(388): FacebookConnect->init()
+#4 C:\xampp\htdocs\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#5 C:\xampp\htdocs\Siicop\protected\views\site\index.php(8): CWebApplication->__get()
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(870): SiteController->renderFile()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#10 C:\xampp\htdocs\Siicop\protected\controllers\SiteController.php(37): SiteController->render()
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/
+in C:\xampp\htdocs\Siicop\protected\extensions\facebook\lib\facebook\src\facebook.php (37)
+in C:\xampp\htdocs\Siicop\protected\extensions\facebook\components\FacebookConnect.php (48)
+in C:\xampp\htdocs\Siicop\protected\views\site\index.php (8)
+2015/07/28 14:02:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://localhost:85/Siicop/css/styles.css
+---
+2015/07/28 14:02:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://localhost:85/Siicop/css/styles.css
+---
+2015/07/28 14:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/07/28 15:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/07/28 15:23:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/07/28 15:32:06 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT r.IdReportePedidosxPdv, r.NumeroPosicion, r.IdHorario, r.HoraInicio, r.HoraFinal,
+                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 2 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Lunes,
+                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 3 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Martes,
+                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 4 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Miercoles,
+                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 5 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Jueves,
+                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 6 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Viernes,
+                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 7 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Sabado
+                FROM v_resumen_pedidos_normal r
+                WHERE r.IdReportePedidosxPdv = 18
+                GROUP BY r.NumeroPosicion, r.IdHorario, r.HoraInicio, r.HoraFinal 
+                ORDER BY r.NumeroPosicion) as count_alias.
+in C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\VResumenPedidosNormalController.php (236)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 15:32:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT r.IdReportePedidosxPdv, r.NumeroPosicion, r.IdHorario, r.HoraInicio, r.HoraFinal,
+                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 2 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Lunes,
+                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 3 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Martes,
+                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 4 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Miercoles,
+                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 5 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Jueves,
+                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 6 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Viernes,
+                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 7 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Sabado
+                FROM v_resumen_pedidos_normal r
+                WHERE r.IdReportePedidosxPdv = 18
+                GROUP BY r.NumeroPosicion, r.IdHorario, r.HoraInicio, r.HoraFinal 
+                ORDER BY r.NumeroPosicion) as count_alias' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\VResumenPedidosNormalController.php(236): CDbCommand->queryScalar()
+#2 [internal function]: VResumenPedidosNormalController->actionAdmin('18')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(VResumenPedidosNormalController), Array)
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(VResumenPedidosNormalController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('admin')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('programacionflo...')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Siicop/programacionflotas/vResumenPedidosNormal/admin/id/18/fechainicio/2015-06-15/fechafinal/2015-07-27/flota/FLOTILLA+6
+HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/vResumenPedidosNormal/index
+---
+2015/07/28 15:32:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\VResumenPedidosNormalController.php(235): CModule->__get('db')
+#5 [internal function]: VResumenPedidosNormalController->actionAdmin('18')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(VResumenPedidosNormalController), Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(VResumenPedidosNormalController), Object(ReflectionMethod), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('admin')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('programacionflo...')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Siicop/programacionflotas/vResumenPedidosNormal/admin/id/18/fechainicio/2015-06-15/fechafinal/2015-07-27/flota/FLOTILLA+6
+HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/vResumenPedidosNormal/index
+---
+2015/07/28 15:32:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\VResumenPedidosNormalController.php(235): CModule->__get('db')
+#5 [internal function]: VResumenPedidosNormalController->actionAdmin('18')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(VResumenPedidosNormalController), Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(VResumenPedidosNormalController), Object(ReflectionMethod), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('admin')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('programacionflo...')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Siicop/programacionflotas/vResumenPedidosNormal/admin/id/18/fechainicio/2015-06-15/fechafinal/2015-07-27/flota/FLOTILLA+6
+---
+2015/07/28 15:32:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\VResumenPedidosNormalController.php(235): CModule->__get('db')
+#5 [internal function]: VResumenPedidosNormalController->actionAdmin('18')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(VResumenPedidosNormalController), Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(VResumenPedidosNormalController), Object(ReflectionMethod), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('admin')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('programacionflo...')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Siicop/programacionflotas/vResumenPedidosNormal/admin/id/18/fechainicio/2015-06-15/fechafinal/2015-07-27/flota/FLOTILLA+6
+---
+2015/07/28 15:32:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Reportepedidosxpdv))
+#7 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(403): CActiveRecord::model('Reportepedidosx...')
+#8 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\VResumenPedidosNormalController.php(193): CActiveRecord->__construct('search')
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): VResumenPedidosNormalController->actionIndex()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('programacionflo...')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/Siicop/programacionflotas/vResumenPedidosNormal/index
+HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/Reportepedidosxpdvdetalle/admin/id/18/fechainicio/2015-06-15/fechafinal/2015-07-27/flota/FLOTILLA+6
+---
+2015/07/28 15:32:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Reportepedidosxpdv))
+#7 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(403): CActiveRecord::model('Reportepedidosx...')
+#8 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\VResumenPedidosNormalController.php(193): CActiveRecord->__construct('search')
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): VResumenPedidosNormalController->actionIndex()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('programacionflo...')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/Siicop/programacionflotas/vResumenPedidosNormal/index
+HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/Reportepedidosxpdvdetalle/admin/id/18/fechainicio/2015-06-15/fechafinal/2015-07-27/flota/FLOTILLA+6
+---
+2015/07/28 15:32:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/07/28 15:44:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted. The SQL statement executed was: CALL Crear_ProgramacionSugerida(19, 10, '2015-08-01', '2015-07-31', 1);.
+in C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaController.php (80)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 15:44:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted. The SQL statement executed was: CALL Crear_ProgramacionSugerida(19, 10, '2015-08-01', '2015-07-31', 1);' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaController.php(80): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): ProgramacionsugeridaController->actionCreate()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('create')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('programacionflo...')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Siicop/programacionflotas/programacionSugerida/create
+HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/programacionSugerida/create
+---
+2015/07/28 15:44:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Programacionsugerida))
+#7 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(403): CActiveRecord::model('Programacionsug...')
+#8 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaController.php(64): CActiveRecord->__construct()
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): ProgramacionsugeridaController->actionCreate()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('create')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('programacionflo...')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/Siicop/programacionflotas/programacionSugerida/create
+HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/ProgramacionSugerida/index
+---
+2015/07/28 15:44:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/07/28 15:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/07/28 16:41:41 [error] [php] PDOStatement::execute(): MySQL server has gone away (C:\xampp\htdocs\yii\framework\db\CDbCommand.php:497)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\schema\mysql\CMysqlSchema.php(160): CDbCommand->queryAll()
+#1 C:\xampp\htdocs\yii\framework\db\schema\mysql\CMysqlSchema.php(120): CMysqlSchema->findColumns()
+#2 C:\xampp\htdocs\yii\framework\db\schema\CDbSchema.php(104): CMysqlSchema->loadTable()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(2311): CMysqlSchema->getTable()
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct()
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(403): model()
+#6 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(78): ProgramacionTurnos->getMetaData()
+#7 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionTurnosController.php(138): ProgramacionTurnos->__construct()
+#8 unknown(0): ProgramacionTurnosController->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): ProgramacionTurnosController->runAction()
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): ProgramacionTurnosController->filterAccessControl()
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(266): ProgramacionTurnosController->runActionWithFilters()
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): ProgramacionTurnosController->run()
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/Siicop/programacionflotas/ProgramacionTurnos/index/id/51
+in C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionTurnosController.php (138)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/07/28 16:41:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Programacionsugeridadetalle))
+#7 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(403): CActiveRecord::model('Programacionsug...')
+#8 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaDetalleController.php(242): CActiveRecord->__construct()
+#10 [internal function]: ProgramacionsugeridadetalleController->actionAdmin('60')
+#11 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProgramacionsugeridadetalleController), Array)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProgramacionsugeridadetalleController), Object(ReflectionMethod), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('admin')
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('programacionflo...')
+#23 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/Siicop/programacionflotas/Programacionsugeridadetalle/admin/id/60/fechainicio/2015-08-01/fechafinal/2015-08-31/idreporte/19/dia/3
+HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/Programacionsugeridadetalle/admin/id/60/fechainicio/2015-08-01/fechafinal/2015-08-31/idreporte/19/dia/3
+---
+2015/07/28 16:41:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/07/28 16:56:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/07/29 16:18:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/07/29 16:19:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/07/29 16:19:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---

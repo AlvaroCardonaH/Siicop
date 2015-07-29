@@ -65,8 +65,12 @@ elseif($error==0){
     $keysContent = '<tr><td>'.Yii::t('importcsvModule.importcsv', 'Campo de la tabla').'</td><td><select name=\"Tablekey\">'.$optionsContent3.'</select></td></tr><tr><td>'.Yii::t('importcsvModule.importcsv', 'Campo del archivo').'</td><td><select name=\"CSVkey\">'.$optionsContent4.'</select></td></tr>';
 
 
-    $perRequest = ($paramsArray['perRequest']!='') ? $paramsArray['perRequest'] : '10';
-    $thirdContent = '<table class=\"importCsvTable\" cellpadding=\"5\" cellspacing=\"1\" border=\"0\" width=\"100%\"><tr><td width=\"50%\">'.Yii::t('importcsvModule.importcsv', 'Modo').' <span class=\"require\">*</span></td><td width=\"50%\">'.$modeContent.'</td></tr><tr><td width=\"50%\">'.Yii::t('importcsvModule.importcsv', 'Items por peticion').' <span class=\"require\">*</span></td><td width=\"50%\"><input type=\"text\" name=\"perRequest\" id=\"perRequest\" value=\"'.$perRequest.'\"/></td></tr><tr><th colspan=\"2\">'.Yii::t('importcsvModule.importcsv', 'LLaves para comparar').'</th>'.$keysContent.'</tr><tr><th>'.Yii::t('importcsvModule.importcsv', 'Columnas de la tabla').'</th><th>'.Yii::t('importcsvModule.importcsv', 'Columnas del archivo').'</th></tr>';
+    $perRequest = ($paramsArray['perRequest']!='') ? $paramsArray['perRequest'] : '1000000';
+    $thirdContent = '<table class=\"importCsvTable\" cellpadding=\"5\" cellspacing=\"1\" border=\"0\" width=\"100%\"><tr><td width=\"50%\">'.Yii::t('importcsvModule.importcsv', 'Modo').' <span class=\"require\">*</span></td><td width=\"50%\">'.$modeContent.'</td></tr><tr><td width=\"50%\">'
+                                                                                                                                            .'</td><td width=\"50%\"><input type=\"hidden\" name=\"perRequest\" id=\"perRequest\" value=\"'.$perRequest.'\"/></td></tr><tr><th colspan=\"2\">'
+                                                                                                                                            .Yii::t('importcsvModule.importcsv', 'Llaves para comparar').'</th>'.$keysContent.'</tr><tr><th>'
+                                                                                                                                            .Yii::t('importcsvModule.importcsv', 'Columnas de la tabla').'</th><th>'
+                                                                                                                                            .Yii::t('importcsvModule.importcsv', 'Columnas del archivo').'</th></tr>';
     for($i=0; $i<$length; $i++) {
 
         $optionsContent  = '<option value=\"\"></option>';

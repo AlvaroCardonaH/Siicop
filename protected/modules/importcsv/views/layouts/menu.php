@@ -30,39 +30,39 @@
             'items'=>array(
                // array('label'=>'Programacion Turnos Flota', 'url'=>array('/programacionflotas')),
 					array('label'=>'Catalogos', 'url'=>'#','visible' => !Yii::app()->user->isGuest, 'items'=>array(
-                    array('label'=>'Gestionar Sedes', 'url'=> array('Sedes/index')),
-					array('label'=>'Gestionar Flotas', 'url'=> array('Flotas/index')),
-					array('label'=>'Gestionar Mensajeros', 'url'=> array('Mensajeros/index')),
+                    array('label'=>'Gestionar Sedes', 'url'=> array('/programacionflotas/Sedes/index')),
+					array('label'=>'Gestionar Flotas', 'url'=> array('/programacionflotas/Flotas/index')),
+					array('label'=>'Gestionar Mensajeros', 'url'=> array('/programacionflotas/Mensajeros/index')),
 					array('label'=>'Gestionar Horarios', 'url'=>'#', 'itemOptions' => array('class' => 'dropdown-submenu'),
                                     'submenuOptions' => array('class' => 'dropdown-menu'),
                                     'items' => array(
-                                                    array('label' => 'Definir Festivos', 'url' => array('Fechafestivos/index')),
-                                                    array('label' => 'Definir Rango de Horarios', 'url' => array('Horario/index')),
-                                                    array('label' => 'Definir Horario por Flota', 'url' => array('Horarioxflota/index')),
-                                                    array('label' => 'Clasificar dias', 'url' => array('Diassemana/index')),
-													array('label' => 'Asignar Dia Cliente Fiel por Flota', 'url' => array('DiasClienteFiel/index')),
+                                                    array('label' => 'Definir Festivos', 'url' => array('/programacionflotas/Fechafestivos/index')),
+                                                    array('label' => 'Definir Rango de Horarios', 'url' => array('/programacionflotas/Horario/index')),
+                                                    array('label' => 'Definir Horario por Flota', 'url' => array('/programacionflotas/Horarioxflota/index')),
+                                                    array('label' => 'Clasificar dias', 'url' => array('/programacionflotas/Diassemana/index')),
+													array('label' => 'Asignar Dia Cliente Fiel por Flota', 'url' => array('/programacionflotas/DiasClienteFiel/index')),
                                                ),
                                     ),
-					array('label'=>'Gestionar Usuarios', 'url'=>array('Usuarios/index')),
+					array('label'=>'Gestionar Usuarios', 'url'=>array('/programacionflotas/Usuarios/index')),
                   
                 )),
 					array('label'=>'Consultas', 'url'=>'#','visible' => !Yii::app()->user->isGuest, 'items'=>array(
-                    array('label'=>'Gestionar Resumen reporte pedidos por punto de venta', 'url' => array('Reportepedidosxpdv/index')),
+                    array('label'=>'Gestionar Resumen reporte pedidos por punto de venta', 'url' => array('/programacionflotas/Reportepedidosxpdv/index')),
 					array('label'=>'Gestionar Resumen pedidos por tipo de dia', 'url'=>'#', 'itemOptions' => array('class' => 'dropdown-submenu'),
                                     'submenuOptions' => array('class' => 'dropdown-menu'),
                                     'items' => array(
-                                                    array('label' => 'Resumen pedidos dia normal', 'url' => array('vResumenPedidosNormal/index')),
-                                                    array('label' => 'Resumen pedidos dia festivo', 'url' => array('vResumenPedidosFestivos/index')),
-                                                    array('label' => 'Resumen pedidos dia cliente fiel', 'url' => array('vResumenPedidosClientefiel/index')),
-                                                    array('label' => 'Resumen general clasificacion dias', 'url' => array('ResumenClasificacionDias/index')),
+                                                    array('label' => 'Resumen pedidos dia normal', 'url' => array('/programacionflotas/vResumenPedidosNormal/index')),
+                                                    array('label' => 'Resumen pedidos dia festivo', 'url' => array('/programacionflotas/vResumenPedidosFestivos/index')),
+                                                    array('label' => 'Resumen pedidos dia cliente fiel', 'url' => array('/programacionflotas/vResumenPedidosClientefiel/index')),
+                                                    array('label' => 'Resumen general clasificacion dias', 'url' => array('/programacionflotas/ResumenClasificacionDias/index')),
                                                 ),
                                     ),
                     
                    
                 )),
 				array('label'=>'Programación', 'url'=>'#','visible' => !Yii::app()->user->isGuest, 'items'=>array(
-                    array('label'=>'Programación sugerida', 'url' => array('ProgramacionSugerida/index')),
-                    array('label'=>'Asignacion de Mensajeros', 'url' => array('ProgramacionTurnos/admin')),
+                    array('label'=>'Programación sugerida', 'url' => array('/programacionflotas/ProgramacionSugerida/index')),
+                    
                     //array('label'=>'NAV HEADER'),
                 )),
 	    ),

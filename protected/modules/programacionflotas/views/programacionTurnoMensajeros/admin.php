@@ -45,7 +45,7 @@ $('.search-form form').submit(function(){
                         'htmlOptions'=>array('style'=>'width: 30px; text-align: center;'),
                         'value'=>'$this->grid->dataProvider->pagination->currentPage * $this->grid->dataProvider->pagination->pageSize + ($row+1)',
                 ),
-		'IdProgramacionTurnoFecha',
+		//'IdProgramacionTurnoFecha',
 		array(
                     'name'=>'NumeroTurno',
                     'htmlOptions'=>array('style'=>'width: 60px; text-align: justify;'),

@@ -55,7 +55,7 @@
 class DefaultController extends Controller {
 
     public $colsArray = array();
-
+    public $layout='/layouts/menu';
     /*
      * action for form
      */
@@ -128,7 +128,7 @@ class DefaultController extends Controller {
 		$model = new ImportCsv;
 		$tableColumns = $model->tableColumns($table);
 
-		$this->layout = 'clear';
+		//$this->layout = 'clear';
 		$this->render('secondResult', array(
 		    'error' => $error,
 		    'tableColumns' => $tableColumns,
@@ -277,7 +277,7 @@ class DefaultController extends Controller {
 		    $error = 1;
 		}
 
-		$this->layout = 'clear';
+		//$this->layout = 'clear';
 		$this->render('thirdResult', array(
 		    'error' => $error,
 		    'delimiter' => $delimiter,
@@ -330,7 +330,7 @@ class DefaultController extends Controller {
 
 	// view rendering
 
-	$this->layout = 'clear';
+	//$this->layout = 'clear';
 	$this->render('firstResult', array(
 	    'error' => $importError,
 	    'uploadfile' => $uploadfile,

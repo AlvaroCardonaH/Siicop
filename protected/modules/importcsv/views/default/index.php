@@ -8,9 +8,14 @@
  * module form
  */
 
-$this->breadcrumbs=array(
-	Yii::t('importcsvModule.importcsv', 'Subir')." Archivo CSV",
-);
+$this->setPageTitle('Subir archivo de Reporte');
+$this->widget('bootstrap.widgets.TbBreadcrumbs', array(
+    'links' => array(
+        'Reporte'=>array('/programacionflotas/Reportepedidosxpdv'),
+        'Crear Programacion Sugerida'
+        
+    ),
+));
 ?>
 
 <div id="importCsvSteps">
