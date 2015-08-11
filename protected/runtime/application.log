@@ -1378,3 +1378,30 @@ Stack trace:
 REQUEST_URI=/Siicop/programacionflotas/reportepedidosxpdvdetalle/GenerateExcel
 HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/Reportepedidosxpdvdetalle/admin/id/22/fechainicio/2015-06-30/fechafinal/2015-07-27/flota/FLOTILLA+6
 ---
+2015/08/07 00:41:49 [error] [system.db.CDbCommand] CDbCommand::fetch() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LoginUsuario' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `m_usuarios` `t` WHERE LoginUsuario=? LIMIT 1.
+in C:\xampp\htdocs\Siicop\protected\components\UserIdentity.php (22)
+in C:\xampp\htdocs\Siicop\protected\models\LoginForm.php (57)
+in C:\xampp\htdocs\Siicop\protected\controllers\SiteController.php (86)
+2015/08/07 00:41:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LoginUsuario' in 'where clause'. The SQL statement executed was: SELECT * FROM `m_usuarios` `t` WHERE LoginUsuario=? LIMIT 1' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\Siicop\protected\components\UserIdentity.php(22): CActiveRecord->find('LoginUsuario=?', Array)
+#4 C:\xampp\htdocs\Siicop\protected\models\LoginForm.php(57): UserIdentity->authenticate()
+#5 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#6 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#7 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#8 C:\xampp\htdocs\Siicop\protected\controllers\SiteController.php(86): CModel->validate()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Siicop/site/login
+HTTP_REFERER=http://localhost:85/Siicop/site/login
+---

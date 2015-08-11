@@ -144,7 +144,8 @@ class SedesController extends Controller
 	 */
 	public function actionIndex()
 	{
-            $session=new CHttpSession;
+                   
+			$session=new CHttpSession;
             $session->open();		
             $criteria = new CDbCriteria();            
 
