@@ -179,7 +179,7 @@ class VResumenPedidosFestivosController extends Controller
                        if (!empty($model->NombreDiaSemana)) $criteria->addCondition("NombreDiaSemana = '".$model->NombreDiaSemana."'");
                      
                     	
-                       if (!empty($model->NumeroServicios)) $criteria->addCondition("NumeroServicios = '".$model->NumeroServicios."'");
+                       if (!empty($model->TotalRegistros)) $criteria->addCondition("TotalRegistros = '".$model->TotalRegistros."'");
                      
                     			
                     $session['VResumenPedidosFestivos_records']=VResumenPedidosFestivos::model()->findAll($criteria); 

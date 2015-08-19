@@ -179,7 +179,7 @@ class VResumenPedidosNormalController extends Controller
                        if (!empty($model->NombreDiaSemana)) $criteria->addCondition("NombreDiaSemana = '".$model->NombreDiaSemana."'");
                      
                     	
-                       if (!empty($model->NumeroServicios)) $criteria->addCondition("NumeroServicios = '".$model->NumeroServicios."'");
+                       if (!empty($model->TotalRegistros)) $criteria->addCondition("TotalRegistros = '".$model->TotalRegistros."'");
                      
                     			
                     $session['VResumenPedidosNormal_records']=VResumenPedidosNormal::model()->findAll($criteria); 
@@ -210,22 +210,22 @@ class VResumenPedidosNormalController extends Controller
          
             
 		$sql="SELECT r.IdReportePedidosxPdv, r.NumeroPosicion, r.IdHorario, r.HoraInicio, r.HoraFinal,
-                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
                 WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 2 AND 
                 r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Lunes,
-                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
                 WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 3 AND 
                 r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Martes,
-                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
                 WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 4 AND 
                 r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Miercoles,
-                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
                 WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 5 AND 
                 r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Jueves,
-                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
                 WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 6 AND 
                 r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Viernes,
-                IFNULL((SELECT r1.NumeroServicios FROM v_resumen_pedidos_normal r1 
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
                 WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 7 AND 
                 r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Sabado
                 FROM v_resumen_pedidos_normal r

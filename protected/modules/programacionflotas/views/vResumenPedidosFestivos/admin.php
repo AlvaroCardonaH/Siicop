@@ -59,7 +59,7 @@ foreach($res as $item)
                 ),
                 'HoraInicio',
 		'HoraFinal',
-                'NumeroServicios',
+                'TotalRegistros',
 		/*'IdSede',
 		'NombreSede',
 		'IdReportePedidosxPdv',

@@ -15,7 +15,7 @@
  * @property integer $IdHorario
  * @property string $HoraInicio
  * @property string $HoraFinal
- * @property string $NumeroServicios
+ * @property string $TotalRegistros
  */
 class VResumenPedidosClientefiel extends CActiveRecord
 {
@@ -48,11 +48,11 @@ class VResumenPedidosClientefiel extends CActiveRecord
 			array('NombreSede, NombreFlota, NumeroPosicion, HoraInicio, HoraFinal', 'required'),
 			array('IdSede, IdReportePedidosxPdv, IdFlota, IdClasificacionDia, NumeroPosicion, IdHorario', 'numerical', 'integerOnly'=>true),
 			array('NombreSede, NombreFlota', 'length', 'max'=>45),
-			array('NombreClasificacionDia, NumeroServicios', 'length', 'max'=>16),
+			array('NombreClasificacionDia, TotalRegistros', 'length', 'max'=>16),
 			array('HoraInicio, HoraFinal', 'length', 'max'=>5),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('IdSede, NombreSede, IdReportePedidosxPdv, IdFlota, NombreFlota, IdClasificacionDia, NombreClasificacionDia, NumeroPosicion, IdHorario, HoraInicio, HoraFinal, NumeroServicios', 'safe', 'on'=>'search'),
+			array('IdSede, NombreSede, IdReportePedidosxPdv, IdFlota, NombreFlota, IdClasificacionDia, NombreClasificacionDia, NumeroPosicion, IdHorario, HoraInicio, HoraFinal, TotalRegistros', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -89,7 +89,7 @@ class VResumenPedidosClientefiel extends CActiveRecord
 			'IdHorario' => 'Id Horario',
 			'HoraInicio' => 'Hora Inicio',
 			'HoraFinal' => 'Hora Final',
-			'NumeroServicios' => 'Numero Servicios',
+			'TotalRegistros' => 'Numero Servicios',
 		);
 	}
 
@@ -115,7 +115,7 @@ class VResumenPedidosClientefiel extends CActiveRecord
 		$criteria->compare('IdHorario',$this->IdHorario);
 		$criteria->compare('HoraInicio',$this->HoraInicio,true);
 		$criteria->compare('HoraFinal',$this->HoraFinal,true);
-		$criteria->compare('NumeroServicios',$this->NumeroServicios,true);
+		$criteria->compare('TotalRegistros',$this->TotalRegistros,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

@@ -17,7 +17,7 @@
  * @property string $HoraFinal
  * @property integer $NumeroDiaSemana
  * @property string $NombreDiaSemana
- * @property string $NumeroServicios
+ * @property string $TotalRegistros
  */
 class VResumenPedidosFestivos extends CActiveRecord
 {
@@ -52,10 +52,10 @@ class VResumenPedidosFestivos extends CActiveRecord
 			array('NombreSede, NombreFlota, NombreClasificacionDia', 'length', 'max'=>45),
 			array('HoraInicio, HoraFinal', 'length', 'max'=>5),
 			array('NombreDiaSemana', 'length', 'max'=>20),
-			array('NumeroServicios', 'length', 'max'=>16),
+			array('TotalRegistros', 'length', 'max'=>16),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('IdSede, NombreSede, IdReportePedidosxPdv, IdFlota, NombreFlota, IdClasificacionDia, NombreClasificacionDia, NumeroPosicion, IdHorario, HoraInicio, HoraFinal, NumeroDiaSemana, NombreDiaSemana, NumeroServicios', 'safe', 'on'=>'search'),
+			array('IdSede, NombreSede, IdReportePedidosxPdv, IdFlota, NombreFlota, IdClasificacionDia, NombreClasificacionDia, NumeroPosicion, IdHorario, HoraInicio, HoraFinal, NumeroDiaSemana, NombreDiaSemana, TotalRegistros', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -94,7 +94,7 @@ class VResumenPedidosFestivos extends CActiveRecord
 			'HoraFinal' => 'Hora Final',
 			'NumeroDiaSemana' => 'Numero Dia Semana',
 			'NombreDiaSemana' => 'Nombre Dia Semana',
-			'NumeroServicios' => 'Numero Servicios',
+			'TotalRegistros' => 'Numero Servicios',
 		);
 	}
 
@@ -122,7 +122,7 @@ class VResumenPedidosFestivos extends CActiveRecord
 		$criteria->compare('HoraFinal',$this->HoraFinal,true);
 		$criteria->compare('NumeroDiaSemana',$this->NumeroDiaSemana);
 		$criteria->compare('NombreDiaSemana',$this->NombreDiaSemana,true);
-		$criteria->compare('NumeroServicios',$this->NumeroServicios,true);
+		$criteria->compare('TotalRegistros',$this->TotalRegistros,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
