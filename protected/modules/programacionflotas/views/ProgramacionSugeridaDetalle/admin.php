@@ -331,7 +331,7 @@ $this->widget('bootstrap.widgets.TbGridView',array(
     <td><?= CHtml::button('Generar Turno',array('submit' =>Yii::app()->createUrl("programacionflotas/ProgramacionTurnos/index", array("id" => $model->IdProgramacionSugerida)), 'confirm'=>'Esta seguro que desea seleccionar esta programacion sugerida?', 'class' => 'btn btn-primary'));?></td>
 </table>
     <?php $this->endWidget(); ?>
-
+<h4>Necesidad</h4>
 <?php
         $diasModel = new VResumenClasificacionDias('search');
         $diasModel->unsetAttributes(); // clear any default values
@@ -541,7 +541,7 @@ $this->widget('bootstrap.widgets.TbGridView',array(
         $HoraVeintiTres=$model->getTotal($model->search()->getData(), 'HoraVeintiTres');
         
 ?>
-
+<h4>Diferencia</h4>
 <?php    
         $this->widget('bootstrap.widgets.TbGridView',array(
         'type'=>'striped bordered condensed',
