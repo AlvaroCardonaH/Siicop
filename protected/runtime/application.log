@@ -2071,3 +2071,12 @@ Stack trace:
 REQUEST_URI=/Siicop/programacionflotas/Programacionsugeridadetalle/admin/id/34/fechainicio/2015-08-01/fechafinal/2015-08-31/idreporte/24/dia/2
 in C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaDetalleController.php (280)
 in C:\xampp\htdocs\Siicop\index.php (13)
+2015/08/20 22:27:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://localhost:85/Siicop/css/styles.css
+---
