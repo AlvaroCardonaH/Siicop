@@ -243,9 +243,9 @@ class ResumenClasificacionDiasController extends Controller
                 $existe = Yii::app()->db->createCommand($SQL1)->execute();
                 if($existe == null)
                 {    
-                $SQL2 = "CALL Generar_Resumen_DiaNormal($id, 1, 1.5);
-                        CALL Generar_Resumen_DiaFestivo($id, 2, 1.5);
-                        CALL Generar_Resumen_DiaClienteFiel($id, 3, 1.5);";
+                $SQL2 = "CALL Generar_Resumen_DiaNormal($id, 1, 1.8);
+                        CALL Generar_Resumen_DiaFestivo($id, 2, 1.8);
+                        CALL Generar_Resumen_DiaClienteFiel($id, 3, 1.8);";
                 Yii::app()->db->createCommand($SQL2)->execute();
                 }
                 
