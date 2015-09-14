@@ -2322,3 +2322,470 @@ Stack trace:
 REQUEST_URI=/Siicop/programacionflotas/ProgramacionTurnos/index/id/11
 HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/Programacionsugeridadetalle/admin/id/11/fechainicio/2015-09-01/fechafinal/2015-09-30/idreporte/25/dia/1
 ---
+2015/09/02 15:17:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/09/02 15:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/09/02 15:36:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaController.php:232
+Stack trace:
+#0 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaController.php(134): ProgramacionsugeridaController->loadModel('24')
+#1 [internal function]: ProgramacionsugeridaController->actionDelete('24')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProgramacionsugeridaController), Array)
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProgramacionsugeridaController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Siicop/programacionflotas/programacionsugerida/delete/id/24?ajax=tprogramacionsugerida-grid
+HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/programacionsugerida/index
+---
+2015/09/02 18:07:47 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`copservir_turnos`.`t_programacionturnos`, CONSTRAINT `FK_IdProgramacionSugerida_Turnos` FOREIGN KEY (`IdProgramacionSugerida`) REFERENCES `t_programacionsugerida` (`IdProgramacionSugerida`) O). La sentencia SQL ejecutada fue: DELETE FROM `t_programacionsugerida` WHERE `t_programacionsugerida`.`IdProgramacionSugerida`=11.
+in C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaController.php (134)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/09/02 18:07:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`copservir_turnos`.`t_programacionturnos`, CONSTRAINT `FK_IdProgramacionSugerida_Turnos` FOREIGN KEY (`IdProgramacionSugerida`) REFERENCES `t_programacionsugerida` (`IdProgramacionSugerida`) O). The SQL statement executed was: DELETE FROM `t_programacionsugerida` WHERE `t_programacionsugerida`.`IdProgramacionSugerida`=11' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1807): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1227): CActiveRecord->deleteByPk('11')
+#2 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaController.php(134): CActiveRecord->delete()
+#3 [internal function]: ProgramacionsugeridaController->actionDelete('11')
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProgramacionsugeridaController), Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProgramacionsugeridaController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Siicop/programacionflotas/programacionsugerida/delete/id/11?ajax=tprogramacionsugerida-grid
+HTTP_REFERER=http://localhost:85/Siicop/programacionflotas/Programacionsugerida/index
+---
+2015/09/02 18:07:59 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`copservir_turnos`.`t_programacionturnos`, CONSTRAINT `FK_IdProgramacionSugerida_Turnos` FOREIGN KEY (`IdProgramacionSugerida`) REFERENCES `t_programacionsugerida` (`IdProgramacionSugerida`) O). La sentencia SQL ejecutada fue: DELETE FROM `t_programacionsugerida` WHERE `t_programacionsugerida`.`IdProgramacionSugerida`=11.
+in C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaController.php (134)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/09/02 18:07:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`copservir_turnos`.`t_programacionturnos`, CONSTRAINT `FK_IdProgramacionSugerida_Turnos` FOREIGN KEY (`IdProgramacionSugerida`) REFERENCES `t_programacionsugerida` (`IdProgramacionSugerida`) O). The SQL statement executed was: DELETE FROM `t_programacionsugerida` WHERE `t_programacionsugerida`.`IdProgramacionSugerida`=11' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1807): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1227): CActiveRecord->deleteByPk('11')
+#2 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaController.php(134): CActiveRecord->delete()
+#3 [internal function]: ProgramacionsugeridaController->actionDelete('11')
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProgramacionsugeridaController), Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProgramacionsugeridaController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Siicop/programacionflotas/programacionsugerida/delete/id/11?ajax=tprogramacionsugerida-grid
+HTTP_REFERER=http://localhost:85/Siicop/programacionflotas/Programacionsugerida/index
+---
+2015/09/02 20:57:03 [error] [php] include(Mensajeros.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\Siicop\protected\extensions\facebook\lib\facebook\src\facebook.php(37): session_start()
+#2 C:\xampp\htdocs\Siicop\protected\extensions\facebook\components\FacebookConnect.php(48): Facebook->__construct()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(394): FacebookConnect->init()
+#4 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 C:\xampp\htdocs\Siicop\protected\views\site\index.php(8): CWebApplication->__get()
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#10 C:\xampp\htdocs\Siicop\protected\controllers\SiteController.php(37): SiteController->render()
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/siicop/programacionflotas/Programacionsugerida/index
+in C:\xampp\htdocs\Siicop\protected\extensions\facebook\lib\facebook\src\facebook.php (37)
+in C:\xampp\htdocs\Siicop\protected\extensions\facebook\components\FacebookConnect.php (48)
+in C:\xampp\htdocs\Siicop\protected\views\site\index.php (8)
+2015/09/02 22:47:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Programacionsugerida))
+#7 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaController.php(156): CActiveRecord->__construct('search')
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProgramacionsugeridaController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/Siicop/programacionflotas/Programacionsugerida/index
+HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/Programacionsugeridadetalle/admin/id/76/fechainicio/2015-09-01/fechafinal/2015-09-30/idreporte/25/dia/3
+---
+2015/09/02 22:53:40 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted. La sentencia SQL ejecutada fue: CALL AsignarPersonasProgramacion(76);.
+in C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionTurnosController.php (132)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/09/02 22:53:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted. The SQL statement executed was: CALL AsignarPersonasProgramacion(76);' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionTurnosController.php(132): CDbCommand->execute()
+#1 [internal function]: ProgramacionTurnosController->actionIndex('76')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProgramacionTurnosController), Array)
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProgramacionTurnosController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Siicop/programacionflotas/ProgramacionTurnos/index/id/76
+HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/Programacionsugeridadetalle/admin/id/76/fechainicio/2015-09-01/fechafinal/2015-09-30/idreporte/25/dia/3
+---
+2015/09/03 19:05:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/09/03 19:05:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/09/03 23:20:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/09/04 17:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/09/04 17:29:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/09/08 16:53:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/09/08 17:01:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/09/08 17:02:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/09/08 17:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "programacionflotas/importcsv"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/programacionflotas/importcsv
+---
+2015/09/08 17:43:40 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() falló: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted. La sentencia SQL ejecutada fue: SELECT COUNT(*) FROM (SELECT r.IdReportePedidosxPdv, r.NumeroPosicion, r.IdHorario, r.HoraInicio, r.HoraFinal,
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 2 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Lunes,
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 3 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Martes,
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 4 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Miercoles,
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 5 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Jueves,
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 6 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Viernes,
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 7 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Sabado
+                FROM v_resumen_pedidos_normal r
+                WHERE r.IdReportePedidosxPdv = 27
+                GROUP BY r.NumeroPosicion, r.IdHorario, r.HoraInicio, r.HoraFinal 
+                ORDER BY r.NumeroPosicion) as count_alias.
+in C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\VResumenPedidosNormalController.php (236)
+in C:\xampp\htdocs\Siicop\index.php (13)
+2015/09/08 17:43:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT r.IdReportePedidosxPdv, r.NumeroPosicion, r.IdHorario, r.HoraInicio, r.HoraFinal,
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 2 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Lunes,
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 3 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Martes,
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 4 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Miercoles,
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 5 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Jueves,
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 6 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Viernes,
+                IFNULL((SELECT r1.TotalRegistros FROM v_resumen_pedidos_normal r1 
+                WHERE r1.IdHorario = r.IdHorario AND r1.NumeroDiaSemana = 7 AND 
+                r.IdReportePedidosxPdv = r1.IdReportePedidosxPdv),0) AS Sabado
+                FROM v_resumen_pedidos_normal r
+                WHERE r.IdReportePedidosxPdv = 27
+                GROUP BY r.NumeroPosicion, r.IdHorario, r.HoraInicio, r.HoraFinal 
+                ORDER BY r.NumeroPosicion) as count_alias' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\VResumenPedidosNormalController.php(236): CDbCommand->queryScalar()
+#2 [internal function]: VResumenPedidosNormalController->actionAdmin('27')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(VResumenPedidosNormalController), Array)
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(VResumenPedidosNormalController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Siicop/programacionflotas/vResumenPedidosNormal/admin/id/27/fechainicio/2015-08-01/fechafinal/2015-08-31/flota/FLOTILLA+4+CALI
+HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/vResumenPedidosNormal/index
+---
+2015/09/08 17:43:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\VResumenPedidosNormalController.php(235): CModule->__get('db')
+#5 [internal function]: VResumenPedidosNormalController->actionAdmin('27')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(VResumenPedidosNormalController), Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(VResumenPedidosNormalController), Object(ReflectionMethod), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Siicop/programacionflotas/vResumenPedidosNormal/admin/id/27/fechainicio/2015-08-01/fechafinal/2015-08-31/flota/FLOTILLA+4+CALI
+HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/vResumenPedidosNormal/index
+---
+2015/09/08 17:43:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\VResumenPedidosNormalController.php(235): CModule->__get('db')
+#5 [internal function]: VResumenPedidosNormalController->actionAdmin('27')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(VResumenPedidosNormalController), Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(VResumenPedidosNormalController), Object(ReflectionMethod), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Siicop/programacionflotas/vResumenPedidosNormal/admin/id/27/fechainicio/2015-08-01/fechafinal/2015-08-31/flota/FLOTILLA+4+CALI
+---
+2015/09/08 17:43:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\VResumenPedidosNormalController.php(235): CModule->__get('db')
+#5 [internal function]: VResumenPedidosNormalController->actionAdmin('27')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(VResumenPedidosNormalController), Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(VResumenPedidosNormalController), Object(ReflectionMethod), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Siicop/programacionflotas/vResumenPedidosNormal/admin/id/27/fechainicio/2015-08-01/fechafinal/2015-08-31/flota/FLOTILLA+4+CALI
+---
+2015/09/08 17:47:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/09/08 17:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img/bs-docs-masthead-pattern.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bs-docs-mas...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Siicop/img/bs-docs-masthead-pattern.png
+HTTP_REFERER=http://190.85.144.82/Siicop/css/styles.css
+---
+2015/09/08 18:02:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaController.php:232
+Stack trace:
+#0 C:\xampp\htdocs\Siicop\protected\modules\programacionflotas\controllers\ProgramacionSugeridaController.php(134): ProgramacionsugeridaController->loadModel('89')
+#1 [internal function]: ProgramacionsugeridaController->actionDelete('89')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProgramacionsugeridaController), Array)
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProgramacionsugeridaController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('programacionflo...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Siicop\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Siicop/programacionflotas/programacionsugerida/delete/id/89?ajax=tprogramacionsugerida-grid
+HTTP_REFERER=http://190.85.144.82/Siicop/programacionflotas/Programacionsugerida/index
+---
+2015/09/08 18:49:01 [error] [php] include(Programacionsugerida.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\Siicop\protected\extensions\facebook\lib\facebook\src\facebook.php(37): session_start()
+#2 C:\xampp\htdocs\Siicop\protected\extensions\facebook\components\FacebookConnect.php(48): Facebook->__construct()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(394): FacebookConnect->init()
+#4 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 C:\xampp\htdocs\Siicop\protected\views\site\index.php(8): CWebApplication->__get()
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#10 C:\xampp\htdocs\Siicop\protected\controllers\SiteController.php(37): SiteController->render()
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\Siicop\index.php(13): CWebApplication->run()
+REQUEST_URI=/siicop/programacionflotas/Programacionsugerida/index
+in C:\xampp\htdocs\Siicop\protected\extensions\facebook\lib\facebook\src\facebook.php (37)
+in C:\xampp\htdocs\Siicop\protected\extensions\facebook\components\FacebookConnect.php (48)
+in C:\xampp\htdocs\Siicop\protected\views\site\index.php (8)
